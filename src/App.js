@@ -1,9 +1,29 @@
 import './App.scss';
 
+import {
+  Navbar,
+  Header,
+  Offer,
+  Destinations,
+  Book,
+  Testimonials,
+  Newsletter,
+  Footer,
+} from './containers';
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Travel Agency Website</h1>
+      <div className="background__decor">
+        <Navbar />
+        <Header />
+      </div>
+      <Offer />
+      <Destinations />
+      <Book />
+      <Testimonials />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };

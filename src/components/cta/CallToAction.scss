@@ -1,0 +1,45 @@
+.tld__cta {
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  button {
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+    font-family: var(--font-family);
+    color: var(--color-accenttext);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    cursor: pointer;
+
+    background: var(--color-btn);
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    &:hover {
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.tld__cta-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    padding: 0 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3406px;
+    line-height: 23px;
+    color: var(--color-text);
+  }
+}

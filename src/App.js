@@ -1,3 +1,4 @@
+import BGImage from './assets/Decore.svg';
 import './App.scss';
 
 import {
@@ -14,6 +15,7 @@ import {
 const App = () => {
   return (
     <div className="App">
+      <img src={BGImage} alt="Background SVG" className="bgimage" />
       <Navbar />
       <Header />
       <Offer />

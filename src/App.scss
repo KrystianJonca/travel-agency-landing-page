@@ -7,13 +7,18 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: url('/assets/Decore.svg') no-repeat;
-  background-size: cover;
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+.bgimage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -100;
 }
 
 .section__padding {

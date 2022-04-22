@@ -6,7 +6,8 @@
 }
 
 body {
-  background: var(--color-bg);
+  background: url('/assets/Decore.svg') no-repeat;
+  background-size: cover;
 }
 
 a {

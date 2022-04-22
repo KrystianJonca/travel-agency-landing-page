@@ -14,10 +14,8 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <div className="background__decor">
-        <Navbar />
-        <Header />
-      </div>
+      <Navbar />
+      <Header />
       <Offer />
       <Destinations />
       <Book />

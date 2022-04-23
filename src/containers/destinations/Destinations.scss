@@ -1,0 +1,26 @@
+.tld__destinations {
+  max-width: 1440px;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/destinations/Decore.png);
+  background-repeat: no-repeat;
+  background-position: 89% 60%;
+  background-size: 96px 252px;
+
+  @media screen and (max-width: 1350px) {
+    background-position: 95% 30%;
+  }
+}
+
+.tld__destinatinons-content_destinations {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  @media screen and (max-width: 1150px) {
+    flex-wrap: wrap;
+  }
+}

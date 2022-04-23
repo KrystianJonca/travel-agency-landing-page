@@ -24,10 +24,10 @@ a {
 .section__padding {
   padding: 4rem 6rem;
   @media screen and (max-width: 550px) {
-    padding: 4rem 2rem;
+    padding: 1rem 1rem;
   }
   @media screen and (max-width: 700px) {
-    padding: 4rem;
+    padding: 1rem 2rem;
   }
 }
 

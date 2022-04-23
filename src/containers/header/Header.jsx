@@ -5,7 +5,7 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <section className="tld__header section_padding" id="home">
+    <section className="tld__header section__padding" id="home">
       <div className="tld__header-content">
         <p className="tld__header-content_toptext">
           Best Destinations around the world

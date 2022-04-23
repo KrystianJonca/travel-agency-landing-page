@@ -5,7 +5,7 @@ import './Destinations.scss';
 
 const Destinations = () => {
   return (
-    <section className="tld__destinations section_padding" id="destinations">
+    <section className="tld__destinations section__padding" id="destinations">
       <div className="tld__destinations-content">
         <Heading toptext="Top Selling" heading="Top Destinations" />
         <div className="tld__destinatinons-content_destinations">

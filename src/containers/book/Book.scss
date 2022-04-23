@@ -1,0 +1,26 @@
+.tld__book {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+
+  @media screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 2rem 2rem;
+  }
+}
+
+.tld__book-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+  }
+}

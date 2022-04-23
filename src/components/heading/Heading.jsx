@@ -4,8 +4,8 @@ import './Heading.scss';
 const Heading = ({ heading, toptext }) => {
   return (
     <div className="tld__heading">
-      <p className="tld__heaading-toptext">Category</p>
-      <h1>We Offer Best Services </h1>
+      <p className="tld__heading-toptext">{toptext}</p>
+      <h1>{heading}</h1>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import './Offer.scss';
 const Offer = () => {
   return (
     <>
-      <section className="tld__offer" id="offer">
+      <section className="tld__offer section_padding" id="offer">
         <div className="tld__offer-container">
           <Heading toptext="Category" heading="We Offer Best Services=" />
           <div className="tld__offer-container_offers">

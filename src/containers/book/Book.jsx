@@ -6,7 +6,7 @@ import './Book.scss';
 
 const Book = () => {
   return (
-    <section className="tld__book section_padding" id="book`  ">
+    <section className="tld__book section__padding" id="book">
       <div className="tld__book-content">
         <Heading
           toptext="Easy and Fast"

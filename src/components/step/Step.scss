@@ -1,0 +1,34 @@
+.tld__step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 480px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-text);
+
+  div {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+.tld__step-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: var(--color-text);
+  h4 {
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 400;
+  }
+}

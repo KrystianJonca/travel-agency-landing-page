@@ -1,0 +1,29 @@
+.tld__heading {
+  text-align: center;
+
+  h1 {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: var(--color-textheader);
+
+    @media screen and (max-width: 550px) {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+}
+
+.tld__heading-toptext {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-text);
+}

@@ -15,7 +15,12 @@ const Book = () => {
         />
         <div className="tld__book-content_steps">
           {stepsData.map((step) => (
-            <Step icon={step.icon} title={step.title} text={step.text} />
+            <Step
+              key={step.title}
+              icon={step.icon}
+              title={step.title}
+              text={step.text}
+            />
           ))}
         </div>
       </div>

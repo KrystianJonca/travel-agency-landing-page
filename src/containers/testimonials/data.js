@@ -16,14 +16,14 @@ export const testimonials = [
   {
     image: person,
     quote:
-      '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."',
+      '"Fuga veritatis, delectus dolorem repellendus iste vitae nihil est ad placeat dignissimos tenetur dicta voluptatem hic magni asperiores, quos nostrum sequi omnis!"',
     name: 'Chris Jones',
     location: 'Warsaw, Poland',
   },
   {
     image: person,
     quote:
-      '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."',
+      '"Ipsum nostrum possimus, eos veniam impedit accusantium dolorem quasi totam blanditiis perspiciatis culpa tempore tenetur voluptatum."',
     name: 'Joe Mama',
     location: 'New York, USA',
   },

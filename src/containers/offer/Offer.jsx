@@ -8,16 +8,16 @@ const Offer = () => {
     <>
       <section className="tld__offer section_padding" id="offer">
         <div className="tld__offer-container">
-          <Heading toptext="Category" heading="We Offer Best Services=" />
+          <Heading toptext="Category" heading="We Offer Best Services" />
           <div className="tld__offer-container_offers">
             <div>
               {offersData.slice(0, 2).map((offer) => (
-                <Service {...offer} />
+                <Service key={offer.title} {...offer} />
               ))}
             </div>
             <div>
               {offersData.slice(2, 4).map((offer) => (
-                <Service {...offer} />
+                <Service key={offer.title} {...offer} />
               ))}
             </div>
           </div>
